@@ -1,39 +1,43 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
-     <meta charset="utf-8">
-     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-     <title>Menú - Clip Path</title>
-     <meta name="viewport" content="width=device-width, initial-scale=1">
-     <script src="https://kit.fontawesome.com/a2e8d0339c.js"></script>
-     <link rel="stylesheet" href="css/estilos.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Menú animado</title>
+    <link rel="stylesheet" href="css/estilos.css">
+    <link href="https://fonts.googleapis.com/css?family=Raleway:300,400,700,800" rel="stylesheet">
+
 </head>
+
 <body>
-     <div class="contenedor-menu" id="contenedor-menu">
-          <p class="btn-abrir-menu" id="btn-abrir-menu">
-               <i class="fas fa-home"></i>
-          </p>
-          <nav class="elementos-navegacion">
-               <ul>
-                    <li><a href="#">Inicio</a></li>
-                    <li><a href="#">Servicios</a></li>
-                    <li><a href="#">Contacto</a></li>
-               </ul>
-          </nav>
-     </div>
 
-     <div class="contenedor">
-          <header class="header">
-               <h1 class="titulo">Lorem Ipsum</h1>
-               <p class="texto-introduccion">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Omnis, facilis itaque deserunt eos eum incidunt accusantium laudantium iure recusandae delectus.</p>
-          </header>
-     </div>
+<!-- Hola qué tal, te recuerdo que la web es de uso libre -->
+<!-- usala para lo que desees y no olvides suscribirte a AlexCG Design -->
+<!-- Web hecha por AlexCG Design, si te sirvió la plantilla por favor entra a AlexCG Design -->
+<!-- ->>>> https://www.youtube.com/alexcgdesign <<<<- -->
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="img/logo.png" alt="">
+            </div>
+            <div class="icono" id="icono">
+                <span>&#9776;</span>
+            </div>
+            <div class="enlaces uno" id="enlaces">
+                <a href="#" class="active">Inicio</a>
+                <a href="#">Acerca de</a>
+                <a href="#">Contacto</a>
+            </div>
+        </nav>
+        <div class="textos">
+            <h1>Menú de navegación animado</h1>
+            <h2>Usando Clip-Path</h2>
+        </div>
+    </header>
 
-     <script>
-          const menu = document.getElementById('btn-abrir-menu');
-          menu.addEventListener('click', () => {
-               document.getElementById('contenedor-menu').classList.toggle('active');
-          });
-     </script>
+    <script src="js/main.js"></script>
 </body>
+
 </html>
